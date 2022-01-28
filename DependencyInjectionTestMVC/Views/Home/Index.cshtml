@@ -1,0 +1,18 @@
+﻿@using DependencyInjectionTestMVC.ViewModels;
+
+@model TimeViewModel
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <p>Time: @Model?.Time</p>
+    <p>InstTime: @Model?.InstTime</p>
+    <p>FactoryTime: @Model?.FactoryTime</p>
+    <p>RegistrationTime: @Model?.RegistrationTime</p>
+    <p></p>
+
+</div>
